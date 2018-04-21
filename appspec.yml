@@ -1,0 +1,12 @@
+version: 0.0
+os: linux
+files:
+  - source: source
+    destination: /usr/local/devops
+hooks:
+  BeforeInstall:
+    - location: PreInstall.sh
+	    timeout: 180
+  AfterInstall:
+    - location: PostInstall.h
+      timeout: 180
