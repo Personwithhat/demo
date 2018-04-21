@@ -6,7 +6,7 @@ files:
 hooks:
   BeforeInstall:
     - location: PreInstall.sh
-	    timeout: 180
+      timeout: 180
   AfterInstall:
     - location: PostInstall.h
       timeout: 180
