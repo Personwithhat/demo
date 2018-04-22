@@ -8,5 +8,5 @@ hooks:
     - location: PreInstall.sh
       timeout: 180
   AfterInstall:
-    - location: PostInstall.h
+    - location: PostInstall.sh
       timeout: 180
