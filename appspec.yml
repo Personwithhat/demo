@@ -5,6 +5,8 @@ files:
     destination: /var/www/html
 hooks:
   BeforeInstall:
+    - location: Cleanup.sh
+      timeout: 180
     - location: PreInstall.sh
       timeout: 180
   AfterInstall:
